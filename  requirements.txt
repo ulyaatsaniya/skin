@@ -1,7 +1,7 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 ultralytics
-streamlit
-opencv-python
+opencv-python-headless
 numpy
 matplotlib
+streamlit
 Pillow
+--extra-index-url https://download.pytorch.org/whl/cpu
