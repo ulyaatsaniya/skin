@@ -1,4 +1,12 @@
 import os
+import sys
+
+try:
+    import cv2
+except ImportError:
+    os.system(f"{sys.executable} -m pip install opencv-python")
+    import cv2
+
 import streamlit as st
 import cv2
 import numpy as np
