@@ -3,14 +3,6 @@ import os
 import subprocess
 import sys
 
-# Install ultralytics if not available
-try:
-    from ultralytics import YOLO
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "ultralytics"])
-    from ultralytics import YOLO
-
-
 from ultralytics import YOLO
 import streamlit as st
 import cv2
