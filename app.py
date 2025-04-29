@@ -6,6 +6,17 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image
 
+import os
+import subprocess
+import sys
+
+# Install ultralytics if not available
+try:
+    from ultralytics import YOLO
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "ultralytics"])
+    from ultralytics import YOLO
+
 # === Config ===
 model_path = "best.pt"
 conf_thres = 0.01
