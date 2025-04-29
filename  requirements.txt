@@ -1,6 +1,6 @@
-streamlit
 ultralytics
+streamlit
 opencv-python
-matplotlib
 numpy
+matplotlib
 Pillow
