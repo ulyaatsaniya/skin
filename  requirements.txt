@@ -1,6 +1,6 @@
-streamlit
+streamlit==1.44.1
 onnxruntime
-opencv-python
+opencv-python-headless
 numpy
 Pillow
 matplotlib
