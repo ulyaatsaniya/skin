@@ -2,4 +2,4 @@ streamlit==1.44.1
 onnxruntime
 numpy
 Pillow
-matplotlib
+matplotlib==3.8.3
