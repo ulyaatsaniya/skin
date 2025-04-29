@@ -2,8 +2,8 @@ streamlit==1.44.1
 ultralytics==8.0.197
 torch==2.0.1+cpu
 torchvision==0.15.2+cpu
-opencv-python-headless
 matplotlib
-numpy
+opencv-python-headless
 Pillow
+numpy
 --extra-index-url https://download.pytorch.org/whl/cpu
