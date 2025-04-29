@@ -1,10 +1,3 @@
-from ultralytics import YOLO
-import streamlit as st
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-from io import BytesIO
-from PIL import Image
 
 import os
 import subprocess
@@ -16,6 +9,15 @@ try:
 except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "ultralytics"])
     from ultralytics import YOLO
+
+
+from ultralytics import YOLO
+import streamlit as st
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+from io import BytesIO
+from PIL import Image
 
 # === Config ===
 model_path = "best.pt"
