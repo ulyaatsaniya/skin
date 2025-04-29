@@ -1,5 +1,5 @@
 streamlit==1.44.1
 onnxruntime
-Pillow
+pillow
 numpy
 matplotlib==3.7.1
