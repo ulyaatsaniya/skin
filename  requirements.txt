@@ -1,4 +1,4 @@
-ultralytics>=8.1.0
+ultralytics
 opencv-python-headless
 numpy
 matplotlib
